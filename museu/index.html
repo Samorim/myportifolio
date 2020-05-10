@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Museu Nacional</title>
+	<meta charset="utf-8">
+
+<!-- normalize css -->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+<!-- estilo customizado -->	
+
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+	<div id="container"> <!-- Inicio Container -->
+		
+		<header><!-- inicio header -->
+			<div id="logo"> 
+				<h1><a href="">Museu Nacional</a></h1>		
+			</div>   
+
+
+			<nav> <!-- INICIO NAV -->
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">EXPOSIÇÕES</a></li>
+				<li><a href="">PESQUISAS</a></li>
+				<li><a href="">ACERVOS</a></li>
+				<li><a href="">VIDEOS</a></li>
+				<li><a href="">FOTOS</a></li>
+				<li><a href="">CONTATO</a></li>
+
+			</ul>
+		</nav> <!-- /FIM NAV -->
+
+		</header><!--/fim header -->
+
+		<div id="principal" > <!--inicio principal -->
+			<div>
+				<div id="conteudo"> <!-- inicio conteudo -->
+
+					<section id="capa"> <!-- inicio capa -->
+						<img src="imagens/museu.png">
+					</section><!-- / fim capa -->
+
+
+					<section id="postagens"> <!-- inicio postagem -->
+
+						<article id="video"> <!-- video -->
+							<h3>Vídeo - Conheça o Museu Nacional</h3>
+							<iframe width="310" height="170" src="https://www.youtube-nocookie.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</article><!-- /video -->
+
+						<article id="mapa"> <!-- mapa -->
+							<h3>Mapa - Encontre o Museu Nacional</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5197.477226743983!2d-43.227900703173184!3d-22.907048340060523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1585505185018!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+						</article> <!-- /mapa -->
+							
+						<article id="exposicoes"> <!-- exposições -->
+							<h3>Exposições do Museu Nacional</h3>
+							<ul>
+								<li><a href="">Antropologia Biológica</a> - A brasileira Luiza</li>
+								<li><a href="">Arqueologia</a> - Bicho preguiça gigante</li>
+								<li><a href="">Etnologia</a> - Os primeiros brasileiros</li>
+								<li><a href="">Geologia</a> - Pedras do Brasil</li>
+								<li><a href=""> Palentologia</a> - Arte com dinossauros</li>
+								<li><a href="">Zoologia</a> - Assustadores insetos</li>
+								<li><a href=""><strong>Veja todos (65)</strong></a></li>
+							</ul>
+						</article>	<!-- /exposições -->
+										
+
+						<article id="historia"><!-- historia -->
+							<h3>200 anos de História</h3>
+							<p>
+								O Museu Nacional, vinculado à Universidade Federal do Rio de Janeiro (UFRJ), é a mais antiga instituição científica do Brasil que, até setembro de 2018, figurou como um dos maiores museus de história natural e de antropologia das Américas. ... Foi incorporado à Universidade Federal do Rio de Janeiro em 1946...
+							</p>
+							<p><a href=""><strong>Leia mais</strong></a></p>
+						</article> <!-- /historia -->
+
+
+					</section> <!-- /fim postagem -->
+
+
+				</div><!-- /fim conteudo -->
+
+				<aside> <!-- inicio lateral -->
+					<section id="depoimento"> <!-- depoimento -->
+						<img src="imagens/depoimento.png">
+					</section> <!-- /depoimento -->
+
+					<section id="visita"> <!-- agende visita -->
+						<h4>Faça uma visita</h4>
+						<form>
+							<fieldset>
+								<legend>Selecione uma data</legend>
+								<label for="data">Data</label>
+								<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+								<label for="qtd">Qtd pessoas</label>
+								<input class="campo" style="width: 40px;" type="text" id="qtd" value="1">
+							</fieldset>
+
+							<input class="botao" type="submit" value="Verificar disponibilidade">
+
+						</form>
+					</section> <!-- /agende visita -->
+
+					<section id="galeria"> <!-- galeria de fotos -->
+						<h4>Galeria de Fotos</h4>
+						<a href="">
+							<img src="imagens/imagem1.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+
+						<a href="">
+							<img src="imagens/imagem2.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+
+						<a href="">
+							<img src="imagens/imagem3.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+
+						<a href="">
+							<img src="imagens/imagem4.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+					</section> <!-- /galeria de fotos -->
+
+				</aside>  <!-- /fim lateral -->
+
+				<footer > <!-- inicio rodape -->
+					<p>
+						<a href=""> Home</a> 
+						<a href="">Contato</a> 
+						<a href="">Trabalhe Conosco</a> 
+						<a href="">Expediente</a> 
+						<a href=""> Siga o Museu nas Redes Sociais</a>
+					</p>
+					<p>Copyright © 2020 Museu Nacional/UFRJ</p>
+
+				</footer><!-- /fim rodape -->
+
+
+
+			</div>
+
+
+
+		</div> <!--/fim principal -->
+
+
+	</div> <!-- /fim Container -->
+
+
+
+
+</body>
+</html>
